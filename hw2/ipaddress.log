@@ -1,0 +1,457 @@
+>>> ipaddress.ip_address('192.0.2.1')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-2-9be05137c908> in <module>
+----> 1 ipaddress.ip_address('192.0.2.1')
+
+NameError: name 'ipaddress' is not defined
+
+
+Unhandled exception in event loop:
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\proactor_events.py", line 768, in _
+loop_self_reading
+    f.result()  # may raise
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\windows_events.py", line 808, in _p
+oll
+    value = callback(transferred, key, ov)
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\windows_events.py", line 457, in fi
+nish_recv
+    raise ConnectionResetError(*exc.args)
+
+Exception [WinError 995] The I/O operation has been aborted because of either a thread exit or an application request
+Press ENTER to continue...
+In [3]: >>> ipaddress.ip_address('2001:DB8::1')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-3-a8c30e7a7002> in <module>
+----> 1 ipaddress.ip_address('2001:DB8::1')
+
+NameError: name 'ipaddress' is not defined
+
+In [4]: >>> ipaddress.ip_address(3221225985)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-4-b08dd4a39425> in <module>
+----> 1 ipaddress.ip_address(3221225985)
+
+NameError: name 'ipaddress' is not defined
+
+
+Unhandled exception in event loop:
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\proactor_events.py", line 768, in _
+loop_self_reading
+    f.result()  # may raise
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\windows_events.py", line 808, in _p
+oll
+    value = callback(transferred, key, ov)
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\windows_events.py", line 457, in fi
+nish_recv
+    raise ConnectionResetError(*exc.args)
+
+Exception [WinError 995] The I/O operation has been aborted because of either a thread exit or an application request
+Press ENTER to continue...
+In [5]: >>> ipaddress.ip_address(42540766411282592856903984951653826561)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-f509f4a01915> in <module>
+----> 1 ipaddress.ip_address(42540766411282592856903984951653826561)
+
+NameError: name 'ipaddress' is not defined
+
+In [6]: >>> ipaddress.ip_address(1)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-6-6edab712b8f5> in <module>
+----> 1 ipaddress.ip_address(1)
+
+NameError: name 'ipaddress' is not defined
+
+In [7]: >>> ipaddress.IPv4Address(1)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-7-e26e91200d01> in <module>
+----> 1 ipaddress.IPv4Address(1)
+
+NameError: name 'ipaddress' is not defined
+
+In [8]: >>> ipaddress.IPv6Address(1)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-8-4a1513655964> in <module>
+----> 1 ipaddress.IPv6Address(1)
+
+NameError: name 'ipaddress' is not defined
+
+In [9]: >>> ipaddress.ip_network('192.0.2.0/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-9-37047ba015dd> in <module>
+----> 1 ipaddress.ip_network('192.0.2.0/24')
+
+NameError: name 'ipaddress' is not defined
+
+In [10]: >>> ipaddress.ip_network('2001:db8::0/96')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-10-792ff4f44e3e> in <module>
+----> 1 ipaddress.ip_network('2001:db8::0/96')
+
+NameError: name 'ipaddress' is not defined
+
+In [11]: ipaddress.ip_network('192.0.2.1/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-11-bfb2520f1dec> in <module>
+----> 1 ipaddress.ip_network('192.0.2.1/24')
+
+NameError: name 'ipaddress' is not defined
+
+In [12]: >>> ipaddress.ip_network('192.0.2.1/24', strict=False)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-12-3e6f5b263666> in <module>
+----> 1 ipaddress.ip_network('192.0.2.1/24', strict=False)
+
+NameError: name 'ipaddress' is not defined
+
+In [13]: >>> ipaddress.ip_network(3221225984)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-13-64f6c8511d03> in <module>
+----> 1 ipaddress.ip_network(3221225984)
+
+NameError: name 'ipaddress' is not defined
+
+In [14]: >>> ipaddress.ip_network(42540766411282592856903984951653826560)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-14-eee229371301> in <module>
+----> 1 ipaddress.ip_network(42540766411282592856903984951653826560)
+
+NameError: name 'ipaddress' is not defined
+
+In [15]: >>> ipaddress.ip_interface('192.0.2.1/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-15-827edb703aa6> in <module>
+----> 1 ipaddress.ip_interface('192.0.2.1/24')
+
+NameError: name 'ipaddress' is not defined
+
+In [16]: >>> ipaddress.ip_interface('2001:db8::1/96')
+
+NameError: name 'ipaddress' is not defined
+
+In [17]: >>> addr4 = ipaddress.ip_address('192.0.2.1')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-17-73dba24bc1c1> in <module>
+----> 1 addr4 = ipaddress.ip_address('192.0.2.1')
+
+NameError: name 'ipaddress' is not defined
+
+In [18]: >>> addr6 = ipaddress.ip_address('2001:db8::1')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-18-46f15e0c289b> in <module>
+----> 1 addr6 = ipaddress.ip_address('2001:db8::1')
+
+NameError: name 'ipaddress' is not defined
+
+In [19]: >>> addr6.version
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-19-992a6eb82503> in <module>
+----> 1 addr6.version
+
+NameError: name 'addr6' is not defined
+
+In [20]: >>> addr4.version
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-20-aa3717092a2a> in <module>
+----> 1 addr4.version
+
+NameError: name 'addr4' is not defined
+
+In [21]: >>> host4 = ipaddress.ip_interface('192.0.2.1/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-21-99ee7872db76> in <module>
+----> 1 host4 = ipaddress.ip_interface('192.0.2.1/24')
+
+NameError: name 'ipaddress' is not defined
+
+In [22]: >>> host4.network
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-22-855d1be497bf> in <module>
+----> 1 host4.network
+
+NameError: name 'host4' is not defined
+
+In [23]: >>> host6 = ipaddress.ip_interface('2001:db8::1/96')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-23-df110a8cb7f0> in <module>
+----> 1 host6 = ipaddress.ip_interface('2001:db8::1/96')
+
+NameError: name 'ipaddress' is not defined
+
+In [24]: >>> host6.network
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-24-eced08e655ea> in <module>
+----> 1 host6.network
+
+NameError: name 'host6' is not defined
+
+In [25]: >>> net4 = ipaddress.ip_network('192.0.2.0/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-25-4b795508d9d2> in <module>
+----> 1 net4 = ipaddress.ip_network('192.0.2.0/24')
+
+NameError: name 'ipaddress' is not defined
+
+
+Unhandled exception in event loop:
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\proactor_events.py", line 768, in _
+loop_self_reading
+    f.result()  # may raise
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\windows_events.py", line 808, in _p
+oll
+    value = callback(transferred, key, ov)
+  File "c:\users\michael bonds\appdata\local\programs\python\python38-32\lib\asyncio\windows_events.py", line 457, in fi
+nish_recv
+    raise ConnectionResetError(*exc.args)
+
+Exception [WinError 995] The I/O operation has been aborted because of either a thread exit or an application request
+Press ENTER to continue...
+In [26]: >>> net4.num_addresses
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-26-eeb382c3ca59> in <module>
+----> 1 net4.num_addresses
+
+NameError: name 'net4' is not defined
+
+In [27]: >>> net6 = ipaddress.ip_network('2001:db8::0/96')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-27-a0bba72a7e15> in <module>
+----> 1 net6 = ipaddress.ip_network('2001:db8::0/96')
+
+NameError: name 'ipaddress' is not defined
+
+In [28]: >>> net6.num_addresses
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-28-e725eaf3df03> in <module>
+----> 1 net6.num_addresses
+
+NameError: name 'net6' is not defined
+
+In [29]: >>> net4 = ipaddress.ip_network('192.0.2.0/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-29-4b795508d9d2> in <module>
+----> 1 net4 = ipaddress.ip_network('192.0.2.0/24')
+
+NameError: name 'ipaddress' is not defined
+
+In [30]:>>> for x in net4.hosts():
+    ...:     print(x)
+    ...:
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-30-b3444b24107e> in <module>
+----> 1 for x in net4.hosts():
+      2     print(x)
+      3
+
+NameError: name 'net4' is not defined
+
+In [31]: >>> net4 = ipaddress.ip_network('192.0.2.0/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-31-4b795508d9d2> in <module>
+----> 1 net4 = ipaddress.ip_network('192.0.2.0/24')
+
+NameError: name 'ipaddress' is not defined
+
+In [32]: >>> net4.netmask
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-32-b9e6d4a3b45d> in <module>
+----> 1 net4.netmask
+
+NameError: name 'net4' is not defined
+
+In [33]: >>> net4.hostmask
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-33-543cd90e2753> in <module>
+----> 1 net4.hostmask
+
+NameError: name 'net4' is not defined
+
+In [34]: >>> net4.hostmark
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-34-3c56ca631b78> in <module>
+----> 1 net4.hostmark
+
+NameError: name 'net4' is not defined
+
+In [35]: >>> net6 = ipaddress.ip_network('2001:db8::0/96')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-35-a0bba72a7e15> in <module>
+----> 1 net6 = ipaddress.ip_network('2001:db8::0/96')
+
+NameError: name 'ipaddress' is not defined
+
+In [36]: net6.netmask
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-36-fb5883ba450d> in <module>
+----> 1 net6.netmask
+
+NameError: name 'net6' is not defined
+
+In [37]: >>> addr6.exploded
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-37-25eb3d90ce80> in <module>
+----> 1 addr6.exploded
+
+NameError: name 'addr6' is not defined
+
+In [38]: >>> addr6.compressed
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-38-34b76027f5a2> in <module>
+----> 1 addr6.compressed
+
+NameError: name 'addr6' is not defined
+
+In [39]: >>> net6.exploded
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-39-368dfb07b854> in <module>
+----> 1 net6.exploded
+
+NameError: name 'net6' is not defined
+
+In [40]: >>> net6.compressed
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-40-f61a1031912c> in <module>
+----> 1 net6.compressed
+
+NameError: name 'net6' is not defined
+
+In [41]: >>> net4[1]
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-41-136de3a96b1b> in <module>
+----> 1 net4[1]
+
+NameError: name 'net4' is not defined
+
+In [42]: >>> net4[-1]
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-42-0229c6024f54> in <module>
+----> 1 net4[-1]
+
+NameError: name 'net4' is not defined
+
+In [43]: >>> net6[1]
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-43-9b47db9c3555> in <module>
+----> 1 net6[1]
+
+NameError: name 'net6' is not defined
+
+In [44]: >>> net6[-1]
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-44-79917f5a38f4> in <module>
+----> 1 net6[-1]
+
+NameError: name 'net6' is not defined
+
+In [45]: >>> addr4 = ipaddress.ip_address('192.0.2.1')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-45-73dba24bc1c1> in <module>
+----> 1 addr4 = ipaddress.ip_address('192.0.2.1')
+
+NameError: name 'ipaddress' is not defined
+
+In [46]: >>> addr4 in ipaddress.ip_network('192.0.2.0/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-46-1c5959a2731c> in <module>
+----> 1 addr4 in ipaddress.ip_network('192.0.2.0/24')
+
+NameError: name 'addr4' is not defined
+
+In [47]: >>> addr4 in ipaddress.ip_network('192.0.3.0/24')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-47-45b0295436cb> in <module>
+----> 1 addr4 in ipaddress.ip_network('192.0.3.0/24')
+
+NameError: name 'addr4' is not defined
+
+In [48]: >>> ipaddress.ip_address('192.0.2.1') < ipaddress.ip_address('192.0.2.2')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-48-2d9638036d07> in <module>
+----> 1 ipaddress.ip_address('192.0.2.1') < ipaddress.ip_address('192.0.2.2')
+
+NameError: name 'ipaddress' is not defined
+
+In [49]: >>> addr4 = ipaddress.ip_address('192.0.2.1')
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-49-73dba24bc1c1> in <module>
+----> 1 addr4 = ipaddress.ip_address('192.0.2.1')
+
+NameError: name 'ipaddress' is not defined
+
+In [50]: >>> str(addr4)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-50-59be906fec5f> in <module>
+----> 1 str(addr4)
+
+NameError: name 'addr4' is not defined
+
+In [51]: >>> int(addr4)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-51-3b08966f9b62> in <module>
+----> 1 int(addr4)
+
+NameError: name 'addr4' is not defined
+
+In [52]: >>> ipaddress.ip_address("192.168.0.256")
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-52-1510c03093b0> in <module>
+----> 1 ipaddress.ip_address("192.168.0.256")
+
+NameError: name 'ipaddress' is not defined
+
+In [53]: >>> ipaddress.ip_network("192.168.0.1/64")
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-53-d9e2b115b945> in <module>
+----> 1 ipaddress.ip_network("192.168.0.1/64")
+
+NameError: name 'ipaddress' is not defined
