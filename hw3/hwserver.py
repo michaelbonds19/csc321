@@ -46,7 +46,7 @@ while True:
     
     
 //  Task ventilator
-//  Binds PUSH socket to tcp://localhost:5557
+//  Binds PUSH socket to tcp://localhost:node00
 //  Sends batch of tasks to workers via that socket
 
 #include "zhelpers.h"
